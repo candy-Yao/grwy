@@ -1,0 +1,110 @@
+/*清零代码*/
+html, body, div, span,h1, h2, h3, h4, h5, h6, p,
+a,dl, dt, dd, ol, ul, li, form,img
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+body {
+	background-color: #000;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+}
+/*页眉*/
+.header {
+	text-align: center;
+	margin-bottom: -4px;
+}
+.header img {
+	height: 159px;
+	border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0; /* Old Firefox */
+}
+/*导航栏*/
+nav {
+	background-image: url(../img/beijing.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	height: 50px;
+}
+/*导航栏链接*/
+nav a:first-child {
+	font-size: 25px; font-family: 华文行楷;
+	color: black;
+	line-height: 50px;
+	margin: 0px 50px 0px 250px;
+	text-decoration: none;	
+}
+nav a:nth-of-type(n+2){
+	font-size: 25px; font-family: 华文行楷;
+	color: #000;
+	line-height: 50px;
+	margin: 0px 50px 0px 0px;
+	text-decoration: none;
+}
+/*section*/
+.fath {
+	text-align: left;
+	font-family:华文行楷;
+	font-size: 24px;
+	padding: 0px;
+	margin: 0 auto;
+	width: 860px;	
+	background-color: goldenrod;
+	border-left: 115px solid khaki;
+	border-right: 115px solid khaki;
+	padding-bottom: 20px;
+}
+.fath div:nth-child(n+2) {
+	margin: 20px;
+}
+.fath div:nth-child(2n) img {
+	float: left;
+	border-radius: 10px;
+	margin-right: 20px;
+}
+.fath div:nth-child(2n+3) img {
+	float: right;
+	border-radius: 10px;
+	margin-left: 20px;
+}
+/*页脚*/
+footer {
+	background-image: url(../img/beijing.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	margin-top: -5px;
+	height: 50px;
+	text-align: center;
+	font-family: 华文行楷;
+	font-size: 25px;
+	line-height: 50px;
+}
+.title {
+	width: 100%;
+	padding: 10px;
+	color: #000;
+	font: bold 45px  "华文行楷", "微软雅黑", "Lucida Sans", Helvetica, Arial, Sans;
+	text-align: center;
+	text-shadow: 0 0 5px #FFF ,0 0 10px #FFF, 0 0 15px #FFF, 0 0 40px #FFF, 0 0 70px #FFF;
+}
+
+
+

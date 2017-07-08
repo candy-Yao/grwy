@@ -1,0 +1,82 @@
+<!-- 
+* ================================================
+* @Author: 姚星如
+* @Date: 2015-10-1
+* @Content: 永远的记忆
+* ================================================
+-->
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>永远的记忆</title>
+<link rel="stylesheet" type="text/css" href="css/style3.css">	
+</head>
+<body>
+<!-- 头部 -->
+<header>
+	<!-- 顶部图片 -->
+	<div class="header">
+		<img src="img/beijing1.png" alt="header" / >
+	</div>
+	<!-- 导航 -->
+	<nav>
+		<a href="../grwy/index1.html" class="a">首页</a>
+		<a href="../grwy/index2.html" class="a">旧时光</a>
+		<a href="../grwy/index3.html" class="a" >永远的记忆</a>
+		<a href="http://www.rabbitpre.com/m/7niaqyx"class="a" >当我老了</div></a>
+	</nav>
+</header>
+<!-- 内容 -->
+<section>
+	<div class="fath">
+		<div>photo album</div>
+		<div>
+			<img src="img/y.png" alt="header" />
+			<img src="img/y1.png" alt="header" />
+			<img src="img/y6.png" alt="header" />
+		</div>
+		<div>
+			<p>我的大学</p>
+			<div id="marq">
+				<table>
+					<tr>
+						<td id="bd">
+							<table>
+								<tr>
+									<td><img src="img/33.png"/></td>
+									<td><img src="img/44.png"/></td>
+									<td><img src="img/55.png"/></td>
+									<td><img src="img/66.png"/></td>
+									<td><img src="img/77.png"/></td>
+								</tr>
+							</table>
+						</td>
+						<td id="shadow"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- 页脚 -->
+<footer>
+	<div>重庆师范大学计算机与信息科学学院计算机科学与技术姚星如版权所有，违版必究。</div>
+</footer>
+<script>
+	var marq=document.getElementById("marq");
+    var bd=document.getElementById("bd");
+    var shadow=document.getElementById("shadow");
+    var sh=document.getElementById("sh");
+    shadow.innerHTML=bd.innerHTML;
+    function mq(){
+    	if(bd.clientWidth-marq.scrollLeft==0)
+    	marq.scrollLeft=0
+    	else
+    	marq.scrollLeft++;
+    	setTimeout("mq()",10);
+    }
+    mq();
+	</script>
+</body>
+</html>
